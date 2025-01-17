@@ -1,4 +1,4 @@
-// Function to add products to the cart
+// main.js
 function addToCart(productName, productPrice) {
     let cart = JSON.parse(localStorage.getItem('cart')) || [];
     const existingProductIndex = cart.findIndex(item => item.name === productName);
