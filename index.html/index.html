@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Store</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Store</h1>
+        <button onclick="window.location.href='cart.html'">Go to Cart</button>
+    </header>
+    
+    <main>
+        <div class="product">
+            <img src="images/product1.jpg" alt="Product 1">
+            <h3>Stereo Headphones</h3>
+            <p>$50</p>
+            <button onclick="addToCart('Stereo Headphones', 50)">Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="images/product2.jpg" alt="Product 2">
+            <h3>Wrist Watch</h3>
+            <p>$100</p>
+            <button onclick="addToCart('Wrist Watch', 100)">Add to Cart</button>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 My Store</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
